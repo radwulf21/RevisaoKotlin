@@ -1,16 +1,5 @@
 package exc1
 
-<<<<<<< HEAD
-class Aluno(var registroAcademico: Int, var nome: String, var sobrenome: String) {
-    fun assistirAulas(aula: Aula) {
-        println("Estou assistindo aula de ${aula.materia.nome}")
-    }
-
-    fun fazerLicoesDeCasa() {
-        println("Estou fazendo as lições de casa!")
-    }
-}
-=======
 class Aluno (val nome:String, val sobrenome: String = "Doe", val registroAcademico: String = "007"){
     fun assistirAula(aula:Aula) {
         println("Assistindo aula $aula")
@@ -20,7 +9,7 @@ class Aluno (val nome:String, val sobrenome: String = "Doe", val registroAcademi
         println("Fazendo lição")
     }
 
-    override fun toString() = "$nome $sobrenome (ra: $registroAcadmeico)"
+    override fun toString() = "$nome $sobrenome (ra: $registroAcademico)"
 }
 
 
@@ -43,4 +32,3 @@ class Aluno (val nome:String, val sobrenome: String = "Doe", val registroAcademi
 //        }
 //    }
 //}
->>>>>>> f2498cfa111b646fa4394bb3be00df310c6e0633
