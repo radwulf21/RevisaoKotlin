@@ -1,6 +1,7 @@
 package exc1
 
 class Aluno (val nome:String, val sobrenome: String = "Doe", val registroAcademico: String = "007"){
+
     fun assistirAula(aula:Aula) {
         println("Assistindo aula $aula")
     }
